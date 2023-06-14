@@ -211,3 +211,7 @@ p{
     color: rgb(244, 11, 11);
     cursor: pointer;
 }
+
+.greeting{
+  text-align: center;
+}
