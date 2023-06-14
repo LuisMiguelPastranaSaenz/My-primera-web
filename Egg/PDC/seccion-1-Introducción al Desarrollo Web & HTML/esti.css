@@ -1,0 +1,100 @@
+
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(Imgen/html-color-codes-color-tutorials-hero.jpg);
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+header{
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-image: url(Imgen/0a4bd36c2063df20480e20bc672032601eb90cb7.jpg);
+    transition: 1.1 ease all;
+    border-radius: 80px  20px;
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+form{
+    background: #000;
+    padding: 40px 0 ;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+.form .grupo{
+    position: relative;
+    margin: 45px;
+    
+}
+
+input{
+    background: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px ;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: red 1px solid
+}
+
+input:focus{
+    outline: none;
+    color:rgb(94, 91, 93);
+}
+
+label{
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease-in-out all;
+    pointer-events: none;
+}
+
+input:focus~label,
+input:valid~label{
+    top: -10px;
+    font-size: 12px;
+    color: aquamarine;
+}
+
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+   
+}
+
+input:focus~.barra::before{
+content: "";
+height: 2px;
+width: 0%;
+bottom: 0;
+position: absolute;
+background: #fff;
+transition: 0.3s ease width;
+left: 0; 
+}
+

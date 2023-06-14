@@ -1,0 +1,213 @@
+
+.pagina{
+    background-image: url(Imgen/por-que-el-espacio-es-frio-1617903788.jpg);
+    padding: 30px;
+    border: 4px solid rgb(249, 185, 185);
+    margin: 20px;
+}
+
+.container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-image: url(Imgen/0a4bd36c2063df20480e20bc672032601eb90cb7.jpg);
+    transition: 1.1 ease all;
+    border-radius: 80px  20px;
+  }
+  
+.container-nav :hover{
+  color: #ef1818;
+  cursor: pointer;
+}
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  li>a {
+    padding: 8px 24px;
+  }
+  
+  
+  li {
+    list-style-type: none;
+  }
+  
+  
+  a {
+    color: white;
+    text-decoration:none;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .button-menu-toggle {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+  
+  
+    .nav-links {
+      display: none;
+    }
+  
+  
+    .button-menu-toggle {
+      display: block;
+      background-color: white;
+      border:none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 20px;
+    }
+   
+    .nav-links.nav-links-responsive {
+      position: absolute;
+      display: flex;
+      background-color: rgba(20,20,20,0.95);
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap:70px;
+      font-size: 40px;
+  
+  
+    }
+  }
+.text{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.imge{
+    display: block;
+    margin: auto; 
+    width: 300px;
+    height: 260px;
+    transition: all 0.6s ease;
+}
+.imge:hover{
+    scale: 1.1;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    
+}
+p{
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+    margin: 20px;
+    padding: 12px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.box{
+    background-color: #980808;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid rgb(34, 20, 192);
+    margin: 50px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .row{
+    
+    margin: 10px;
+  }
+.column{
+
+    padding: 10px;
+}
+.container p{
+    color: aqua;
+}
+
+@media (max-width : 600px){
+    .column{
+        flex: 100%;
+    }
+}
+.boton{
+    text-decoration: none;
+    font-weight: 600;
+    font: size 20px;
+    color: #cb1818;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#FFD27D;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35px;
+    justify-content: space-between;
+    transition: all 0.20s ease;
+}
+
+.boton:hover{
+    margin: 8px;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(20, 197, 76);
+    cursor: pointer;
+}
+
+.clic{
+    text-decoration: none;
+    font-weight: 600;
+    font: size 20px;
+    color: #18be79;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#FFD27D;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35px;
+    margin-left: 700px;
+    transition: all 0.85s ease;
+}
+
+.clic:hover{
+    margin: 8px;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(244, 11, 11);
+    cursor: pointer;
+}

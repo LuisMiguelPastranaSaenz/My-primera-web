@@ -1,0 +1,23 @@
+body{
+    border-style:dashed;
+    width: 500px;
+    height: 600px;
+}
+
+.container div{
+    border: 3px solid #df0b0b;
+    height: 120px;
+    display: flex;
+    justify-content: start;
+}
+
+.div{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border: 6px solid #fff ;
+    justify-self: center;
+}
+
+   
+
